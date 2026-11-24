@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bess_arbitrage *.css
+recursive-include bess_arbitrage *.csv
+recursive-include bess_arbitrage *.html
+recursive-include bess_arbitrage *.ico
+recursive-include bess_arbitrage *.js
+recursive-include bess_arbitrage *.json
+recursive-include bess_arbitrage *.md
+recursive-include bess_arbitrage *.png
+recursive-include bess_arbitrage *.py
+recursive-include bess_arbitrage *.svg
+recursive-include bess_arbitrage *.txt
+recursive-exclude bess_arbitrage *.pyc

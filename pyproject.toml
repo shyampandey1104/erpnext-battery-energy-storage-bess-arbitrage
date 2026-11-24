@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "erpnext-battery-energy-storage-bess-arbitrage"
+authors = [{name = "Shyam Kumar Pandey", email = "shyamkumarpandey1104@gmail.com"}]
+description = "ERPNext BESS Arbitrage Engine: Grid-Scale Battery Dispatch, IEX DAM/RTM Power Arbitrage & Degradation Cycle Guard."
+version = "1.0.0"
+readme = "README.md"
+classifiers = ["Framework :: Frappe"]
